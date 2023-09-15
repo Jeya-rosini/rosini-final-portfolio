@@ -1,12 +1,12 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 
 
 :root {
-    --dark-primary: #3F3351;
-    --primary: #E9A6A6;
-    --primary-hover: #d23931;
-    --second-primary:#494254;
+    --dark-primary: #2c3333;
+    --primary: #Cbe4de;
+    --primary-hover: #2e4f4f;
+    --second-primary:#0e8388;
 }
 
 *{
