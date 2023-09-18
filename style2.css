@@ -22,7 +22,7 @@ body{
 
 header{
     background-color: var(--dark-primary);
-    padding: 20px;
+    padding: 30px;
     color: var(--primary);
     display: flex;
     justify-content: space-evenly;
@@ -35,7 +35,7 @@ header ul{
 }
 
 header ul li{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 header ul li a{
@@ -46,6 +46,11 @@ header ul li a{
 header ul li a:hover{
     color: #2c3333;
 
+}
+
+section .heroine h4{
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .button{
@@ -89,8 +94,9 @@ section.heroine {
     color:var(--primary);
 }
 
-.heroine-description{
-    color: var(--primary);
+.heroine-description a{
+    text-decoration: none;
+    color: var(--primary-hover);
 }
 
 .social-icons{
@@ -98,7 +104,7 @@ section.heroine {
 }
 
 .social-icons{
-    margin-right: 20px;
+    margin-right: 40px;
     list-style: none;
     justify-content: space-around;
 }
@@ -107,6 +113,7 @@ section.heroine {
 .social-icons a{
     text-decoration: none;
     color: #2c3333;
+    padding: 10px;
 }
 
 .social-icons a:hover{
@@ -122,7 +129,11 @@ section.heroine {
 }
 
 .btn:hover {
-    font-weight: 100;
+    border-radius: 50px;
+    background-color: var(--dark-primary);
+    color: var(--primary);
+    border-color: var(--primary);
+    border-width: 20px;
 }
 
 .btn-btn-primary{
@@ -307,7 +318,7 @@ section.heroine {
 
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
     header{
         flex-direction: column;
     }
@@ -338,6 +349,7 @@ section.heroine {
     .work-section-items{
         flex-direction:column;
         align-items: center;
+        max-width: 0;
     }
 
     .work-section-box{
