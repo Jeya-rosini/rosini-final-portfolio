@@ -304,9 +304,6 @@ section.heroine {
     background-color: var(--primary);
     color: var(--dark-primary);
     margin: 10px;
-<<<<<<< HEAD
-}
-=======
 }
 
 @media only screen and (max-width:600px){
@@ -356,4 +353,3 @@ section.heroine {
         width: 100%;
     }
     }
->>>>>>> 8e79065 (new changes)
