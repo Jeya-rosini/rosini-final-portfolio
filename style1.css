@@ -87,16 +87,20 @@ section.heroine {
 }
 
 .heroine-title span{
-    color:var(--primary-hover);
+    color:var(--second-primary);
 }
 
 .heroine-title span:hover{
     color:var(--primary);
 }
 
+.heroine-description{
+    color: var(--primary);
+}
+
 .heroine-description a{
     text-decoration: none;
-    color: var(--primary-hover);
+    color: var(--second-primary);
 }
 
 .social-icons{
@@ -143,22 +147,13 @@ section.heroine {
     border: none;
     cursor: pointer;
     font-weight: 600;
-    color: var(--dark-primary);
+    color: var(--second-primary);
 }
 .btn-btn-primary:hover {
     background-color: var(--primary-hover);
+    color:#fff;
 }
 
-.footer-message{
-    align-items: center;
-    background-color: var(--dark-primary);
-    color:var(--primary);
-    padding: 100px;
-}
-
-.footer-message img{
-    width: 200px;
-}
 
  /*about me*/
 .about-section {
@@ -183,11 +178,11 @@ section.heroine {
 
 .about-section-desc h5{
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .about-section-desc h5 span{
-    color:var(--primary);
+    color:var(--primary-hover);
     margin-bottom:10px;
 }
 
@@ -198,7 +193,7 @@ section.heroine {
 
 .about-section-desc li{
     margin-bottom: 10px;
-    color:grey;
+    color:#2e4f4f;
 }
 
 .about-section-desc li b{
@@ -206,7 +201,7 @@ section.heroine {
 }
 
 .about-section-desc li a{
-    color:grey;
+    color:#2e4f4f;
 }
 
 .about-section-desc li a:hover{
@@ -221,9 +216,11 @@ section.heroine {
     text-align: center;
 }
 
-.work-section h7{
+section .work-section h7{
     margin:20px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
+    font-size: large;
 }
 
 .work-section-items{
@@ -251,6 +248,7 @@ section.heroine {
 .work-section-box h8{
     color:#fff;
    margin: 20px 0px;
+   padding: 50px 0;
 }
 .work-section-box a{
     color: #fff;
@@ -261,8 +259,10 @@ section.heroine {
 
 .work-box-icons{
     background-color: var(--primary-hover);
-    padding:20px;
+    padding:5px;
     border-radius: 50%;
+    color: #fff;
+    align-items: center;
 }
 
 .skill-section{
@@ -280,9 +280,11 @@ section.heroine {
 
 .skill-section i{
     color:#fff;
-    padding:30px;
+    padding:10px;
     background-color: var(--primary-hover);
-    border-radius: 2px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 30px;
 }
 
 .skill-icon {
@@ -307,14 +309,32 @@ section.heroine {
     color:#fff;
 }
 
-.contact-section input, textarea{
+.contact-section form input, textarea{
     padding: 5px 10px;
     outline: none;
     width: 350px;
     border-radius: 2px;
-    background-color: var(--primary);
-    color: var(--dark-primary);
+    background-color: transparent;
+    color: var(--primary);
     margin: 10px;
+    border-color: var(--primary-hover);
+    box-shadow: 2px 1px var(--primary);
+}
+
+.footer-message{
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-primary);
+    color:var(--primary);
+    padding: 100px;
+}
+
+.footer-msg-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }
 
 @media only screen and (max-width:800px){

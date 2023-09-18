@@ -151,6 +151,7 @@ section .heroine h4{
 }
 .btn-btn-primary:hover {
     background-color: var(--primary-hover);
+    color: #fff;
 }
 
  /*about me*/
@@ -259,7 +260,7 @@ section .work-section h7{
 
 .work-box-icons{
     background-color: var(--primary-hover);
-    padding:20px;
+    padding:5px;
     border-radius: 50%;
     color:#fff;
     align-items: center;
@@ -316,7 +317,7 @@ section .work-section h7{
     width: 350px;
     border-radius: 2px;
     background-color: transparent;
-    color: var(--dark-primary);
+    color: var(--primary);
     margin: 10px;
     border-color: var(--primary-hover);
     box-shadow: 2px 1px var(--primary);

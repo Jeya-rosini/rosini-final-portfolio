@@ -65,7 +65,7 @@ section .heroine h4{
 .button:hover{
     background-color: var(--primary);
     cursor: pointer;
-    color: var(--dark-primary);
+    color: #2c3333;
 }
 
 header .logo {
@@ -87,16 +87,20 @@ section.heroine {
 }
 
 .heroine-title span{
-    color:var(--primary-hover);
+    color: #fff;
 }
 
 .heroine-title span:hover{
     color:var(--primary);
 }
 
+.heroine-description{
+    color: var(--primary);
+}
+
 .heroine-description a{
     text-decoration: none;
-    color: var(--primary-hover);
+    color: #2c3333;
 }
 
 .social-icons{
@@ -131,33 +135,22 @@ section.heroine {
 .btn:hover {
     border-radius: 50px;
     background-color: var(--dark-primary);
-    color: var(--primary);
+    color: #000;
     border-color: var(--primary);
     border-width: 20px;
 }
 
 .btn-btn-primary{
-    background-color: var(--primary);
+    background-color: var(--primary-hover);
     padding: 10px 10px;
     border-radius: 2px;
     border: none;
     cursor: pointer;
     font-weight: 600;
-    color: var(--dark-primary);
+    color: #2c3333;
 }
 .btn-btn-primary:hover {
-    background-color: var(--primary-hover);
-}
-
-.footer-message{
-    align-items: center;
-    background-color: var(--dark-primary);
-    color:var(--primary);
-    padding: 100px;
-}
-
-.footer-message img{
-    width: 200px;
+    background-color: #fff;
 }
 
  /*about me*/
@@ -183,11 +176,11 @@ section.heroine {
 
 .about-section-desc h5{
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .about-section-desc h5 span{
-    color:var(--primary);
+    color: #fff;
     margin-bottom:10px;
 }
 
@@ -198,15 +191,15 @@ section.heroine {
 
 .about-section-desc li{
     margin-bottom: 10px;
-    color:grey;
-}
-
-.about-section-desc li b{
     color: #2c3333;
 }
 
+.about-section-desc li b{
+    color: #fff;
+}
+
 .about-section-desc li a{
-    color:grey;
+    color: #2c3333;
 }
 
 .about-section-desc li a:hover{
@@ -216,14 +209,16 @@ section.heroine {
 
 .work-section{
     background-color: var(--dark-primary);
-    color:var(--primary);
+    color: #2c3333;
     padding: 60px;
     text-align: center;
 }
 
-.work-section h7{
+section .work-section h7{
     margin:20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: large;
 }
 
 .work-section-items{
@@ -243,7 +238,7 @@ section.heroine {
 }
 
 .work-section-box p{
-    color: var(--primary);
+    color: #fff;
     padding-bottom: 10px;
 }
 
@@ -251,6 +246,7 @@ section.heroine {
 .work-section-box h8{
     color:#2c3333;
    margin: 20px 0px;
+   padding: 50px 0;
 }
 .work-section-box a{
     color: #2c3333;
@@ -260,14 +256,15 @@ section.heroine {
 }
 
 .work-box-icons{
-    background-color: var(--primary-hover);
-    padding:20px;
+    background-color: #fff;
+    padding:5px;
     border-radius: 50%;
+    align-items: center;
 }
 
 .skill-section{
     background-color: var(--second-primary);
-    color: var(--primary);
+    color: #2c3333;
     padding: 20px;
 }
 
@@ -280,9 +277,11 @@ section.heroine {
 
 .skill-section i{
     color:#2c3333;
-    padding:30px;
+    padding:10px;
     background-color: var(--primary-hover);
-    border-radius: 2px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 30px;
 }
 
 .skill-icon {
@@ -307,15 +306,33 @@ section.heroine {
     color:#2c3333;
 }
 
-.contact-section input, textarea{
+.contact-section form input, textarea{
     padding: 5px 10px;
     outline: none;
     width: 350px;
     border-radius: 2px;
-    background-color: var(--primary);
-    color: var(--dark-primary);
+    background-color: transparent;
+    color: #000;
     margin: 10px;
+    border-color: var(--second-primary);
+    box-shadow: 2px 1px #2c3333;
 
+}
+
+.footer-message{
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-primary);
+    color:var(--primary);
+    padding: 100px;
+}
+
+.footer-msg-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }
 
 @media only screen and (max-width:800px){
