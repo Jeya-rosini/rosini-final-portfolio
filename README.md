@@ -26,10 +26,14 @@ Tech Used: HTML5 and CSS 3
 ![color variant 1 portfolio 2](https://github.com/Jeya-rosini/rosini-final-portfolio/assets/143939511/cff69f84-1129-4cbe-8d6e-ddacc9c69b37)
 
 ### color variant 2:
+![color variant 2 portfolio 1](<color variant 2 portfolio 1.png>)
 
+![color variant 2 portfolio 2](<color variant 2 portfolio 2.png>)
 
 ### color variant 3:
+![color variant 3 portfolio 1](<color variant 3 portfolio 1.png>)
 
+![color variant 3 portfolio 2](<color variant 3 portfolio 2.png>)
 
 
  Thank you for your valuable to time see my responsive portfolios
