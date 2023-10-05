@@ -29,7 +29,6 @@ Tech Used: HTML5 and CSS 3
 ![color variant 2 portfolio 1](<color variant 2 portfolio 1.png>)
 
 ![color variant 2 portfolio 2](<color variant 2 portfolio 2.png>)
-
 ### color variant 3:
 ![color variant 3 portfolio 1](<color variant 3 portfolio 1.png>)
 
