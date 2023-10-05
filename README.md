@@ -19,6 +19,10 @@ Tech Used: HTML5 and CSS 3
  5, Third color variant responsive portfolio
 
  ## screenshots
+![color variant 1 portfolio 1](https://github.com/Jeya-rosini/rosini-final-portfolio/assets/143939511/cf85738a-6819-490b-aca2-4247f713a435)
+
+![color variant 1 portfolio 2](https://github.com/Jeya-rosini/rosini-final-portfolio/assets/143939511/cff69f84-1129-4cbe-8d6e-ddacc9c69b37)
+
 
 
  Thank you for your valuable to time see my responsive portfolios
